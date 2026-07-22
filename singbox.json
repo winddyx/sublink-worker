@@ -2,14 +2,14 @@
   "dns": {
     "servers": [
       {
-        "tag": "dns_local",
-        "type": "local"
-      },
-      {
         "tag": "dns_proxy",
         "type": "tcp",
         "server": "1.1.1.1",
         "detour": "节点选择"
+      },
+      {
+        "tag": "dns_local",
+        "type": "local"
       },
       {
         "tag": "dns_resolver",
