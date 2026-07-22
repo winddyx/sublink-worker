@@ -1,4 +1,4 @@
-import { createApp } from '../src/app/createApp.jsx';
+import { createApp } from '../dist/vercel/createApp.js';
 import { createVercelRuntime } from '../src/runtime/vercel.js';
 
 const runtime = createVercelRuntime(process.env);
