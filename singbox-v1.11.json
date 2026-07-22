@@ -9,11 +9,6 @@
       {
         "tag": "dns_local",
         "address": "local"
-      },
-      {
-        "tag": "dns_resolver",
-        "address": "223.5.5.5",
-        "detour": "DIRECT"
       }
     ],
     "rules": [
