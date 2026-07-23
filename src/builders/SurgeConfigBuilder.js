@@ -469,7 +469,7 @@ export class SurgeConfigBuilder extends BaseConfigBuilder {
             });
         });
 
-        finalConfig.push('FINAL,' + this.t('outboundNames.Fall Back'));
+        finalConfig.push('FINAL,DIRECT');
 
         return finalConfig.join('\n');
     }

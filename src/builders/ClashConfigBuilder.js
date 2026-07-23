@@ -684,7 +684,7 @@ export class ClashConfigBuilder extends BaseConfigBuilder {
 
         this.config.rules = [
             ...ruleResults,
-            `MATCH,${this.t('outboundNames.Fall Back')}`
+            'MATCH,DIRECT'
         ];
 
         // Enable Clash UI (external controller/dashboard) when requested or when custom UI params are provided
